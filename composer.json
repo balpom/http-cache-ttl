@@ -1,0 +1,21 @@
+{
+    "name": "balpom/http-cache-ttl",
+    "description": "Object for storing common and individual TTLs for different HTTP response status codes for use in caching.",
+    "keywords": ["http", "cache", "caching", "ttl", "response", "status", "codes"],
+    "type": "library",
+    "homepage": "https://www.balpom.ru",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Balpom\\HttpCacheTtl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mikhail (Balpom)"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
